@@ -10,7 +10,8 @@ class A{
     }
 }
 class B extends A{
-    public void meth3(){
+    @Override
+    public void meth2(){
         System.out.println(" i am method 3 of class B");
     }
 
